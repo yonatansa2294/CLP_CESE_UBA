@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1686696131">
+  <File Type="OPT-HWDEF" Name="top_level_vga.hwdef"/>
+  <File Type="PA-DCP" Name="top_level_vga.dcp"/>
+  <File Type="OPT-DCP" Name="top_level_vga_opt.dcp"/>
+  <File Type="ROUTE-PWR" Name="top_level_vga_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="top_level_vga.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_level_vga_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="top_level_vga_reports.tcl"/>
+  <File Type="BG-DRC" Name="top_level_vga.drc"/>
+  <File Type="OPT-DRC" Name="top_level_vga_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="top_level_vga_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="top_level_vga_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_level_vga_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_level_vga_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_level_vga_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_level_vga_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_level_vga_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_level_vga_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="top_level_vga_physopt.dcp"/>
+  <File Type="BG-BIT" Name="top_level_vga.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_level_vga_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_level_vga_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_level_vga_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="top_level_vga_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_level_vga_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="top_level_vga.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_level_vga_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="top_level_vga.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_level_vga_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="top_level_vga.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_level_vga_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="top_level_vga.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_level_vga_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_level_vga_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_level_vga_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_level_vga_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_level_vga_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_level_vga_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_level_vga_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="top_level_vga.vdi"/>
+  <File Type="ROUTE-CLK" Name="top_level_vga_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_level_vga_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_level_vga_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="top_level_vga.nky"/>
+  <File Type="BITSTR-BMM" Name="top_level_vga_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="top_level_vga.mmi"/>
+  <File Type="BITSTR-LTX" Name="top_level_vga.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_level_vga.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/vga_contador_horizontal.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_contador_horizontal.vhd"/>
+        <Attr Name="ImportTime" Val="1686542863"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/vga_contador_vertical.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_contador_vertical.vhd"/>
+        <Attr Name="ImportTime" Val="1686541948"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/vga_genenador_hsync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_genenador_hsync.vhd"/>
+        <Attr Name="ImportTime" Val="1686542084"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/vga_generador_blank.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_generador_blank.vhd"/>
+        <Attr Name="ImportTime" Val="1686542844"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/vga_generador_vsync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_generador_vsync.vhd"/>
+        <Attr Name="ImportTime" Val="1686542152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/vga_imagen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_imagen.vhd"/>
+        <Attr Name="ImportTime" Val="1686542820"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_sync.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_level_vga.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_level_vga"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Sources/vga_pinout.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_pinout.xdc"/>
+        <Attr Name="ImportTime" Val="1686635956"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/Sources/vga_timing.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/vga_timing.xdc"/>
+        <Attr Name="ImportTime" Val="1686634778"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
