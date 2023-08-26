@@ -1,0 +1,37 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Thu Aug 24 16:45:14 2023
+| Host         : LAPTOP-4IC2H2QT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_vga_vga_ip_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_vga_vga_ip_0_2 (xilinx.com:user:vga_ip:1.0) from (Rev. 4) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Thu Aug 24 16:20:16 2023
+| Host         : LAPTOP-4IC2H2QT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_vga_vga_ip_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_vga_vga_ip_0_2 (xilinx.com:user:vga_ip:1.0) from (Rev. 3) to (Rev. 4)
+

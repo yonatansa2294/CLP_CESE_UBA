@@ -1,0 +1,17 @@
+vhdl xil_defaultlib  \
+"../../../../system_vga.srcs/sources_1/bd/system_vga/ipshared/7088/hdl/vga_ip_v1_0_S00_AXI.vhd" \
+"../../../../system_vga.srcs/sources_1/bd/system_vga/ipshared/7088/hdl/vga_ip_v1_0.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/top_level_vga.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_contador_horizontal.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_contador_vertical.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_genenador_hsync.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_generador_blank.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_generador_vsync.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_imagen.vhd" \
+"../../../../system_vga.srcs/Codigos/VGA_CLP/vga_sync.vhd" \
+"../../../../system_vga.srcs/sources_1/bd/system_vga/ip/system_vga_vga_ip_0_2/sim/system_vga_vga_ip_0_2.vhd" \
+"../../../../system_vga.srcs/sources_1/bd/system_vga/ip/system_vga_rst_ps7_0_100M_1/sim/system_vga_rst_ps7_0_100M_1.vhd" \
+"../../../../system_vga.srcs/sources_1/bd/system_vga/sim/system_vga.vhd" \
+"../../../../system_vga.srcs/sources_1/bd/system_vga/ip/system_vga_ila_0_0/sim/system_vga_ila_0_0.vhd" \
+
+nosort
